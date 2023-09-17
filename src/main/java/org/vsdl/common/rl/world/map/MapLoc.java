@@ -6,6 +6,10 @@ public class MapLoc {
     private final short R;
     private final short C;
 
+    public static MapLoc at(short row, short col) {
+        return new MapLoc(row, col);
+    }
+
     public MapLoc(short row, short col) {
         R = row;
         C = col;
