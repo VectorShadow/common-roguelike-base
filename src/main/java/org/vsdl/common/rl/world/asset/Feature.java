@@ -6,7 +6,7 @@ public class Feature implements WorldAsset {
     private int durability = -1;
     private byte state = 0;
 
-    public Feature(short archetypeId) {
+    protected Feature(short archetypeId) {
         this.archetypeId = archetypeId;
     }
 
