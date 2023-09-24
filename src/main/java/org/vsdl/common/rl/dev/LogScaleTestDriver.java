@@ -15,7 +15,7 @@ public class LogScaleTestDriver {
 //                .addEntry(255, 1_000_000_000_000.0)
 
                 .using(LogScale.ScalingStrategy.GROWTH_RATE, 16L)
-                .addEntry(15, 2.4265, 3.0)
+                .addEntry(15, 2.5, 3.5)
                 .addEntry(99, 2.0, 7.0)
                 .addEntry(127, 2.1, 7.0)
                 .addEntry(255, 2.2, 7.0)
