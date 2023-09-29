@@ -2,7 +2,9 @@ package org.vsdl.common.rl.world.map;
 
 import org.vsdl.common.rl.world.util.Direction;
 
-public class MapLoc {
+import java.io.Serializable;
+
+public class MapLoc implements Serializable {
     private final short R;
     private final short C;
 

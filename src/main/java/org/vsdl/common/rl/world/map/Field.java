@@ -3,11 +3,12 @@ package org.vsdl.common.rl.world.map;
 import org.vsdl.common.rl.world.asset.*;
 import org.vsdl.common.rl.world.util.MobileAssetMappedList;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class Field {
+public class Field implements Serializable {
 
     private final byte[][] terrain;
 

@@ -1,5 +1,7 @@
 package org.vsdl.common.rl.world.asset;
 
-public interface WorldAsset {
+import java.io.Serializable;
+
+public interface WorldAsset extends Serializable {
     short getArchetypeId();
 }
